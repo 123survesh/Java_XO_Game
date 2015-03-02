@@ -380,14 +380,14 @@ if(finish!=1&&(countx>4||county>4))
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        i++; int x1=0,y1=0;
+         int x1=0,y1=0;
        
         if (count2 != 0) {
             
             if (i % 2 != 0) {
-                jButton2.setText("X");x1++;x[countx]=2;countx++;
+                jButton2.setText("X");x1++;x[countx]=2;countx++;i++;
             } else {
-                jButton2.setText("O");y1++;o[county]=2;county++;
+                jButton2.setText("O");y1++;o[county]=2;county++;i++;
             }
             count2--;
             if(countx>2||county>2)
@@ -400,13 +400,13 @@ if(finish!=1&&(countx>4||county>4))
     }//GEN-LAST:event_jButton2ActionPerformed
     }
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        i++; int x1=0,y1=0;
+         int x1=0,y1=0;
          
         if (count4 != 0) {
             if (i % 2 != 0) {
-                jButton4.setText("X");x1++;x[countx]=4;countx++;
+                jButton4.setText("X");x1++;x[countx]=4;countx++;i++;
             } else {
-                jButton4.setText("O");y1++;o[county]=4;county++;
+                jButton4.setText("O");y1++;o[county]=4;county++;i++;
             }
 // TODO add your handling code here:
             count4--;
@@ -418,13 +418,13 @@ if(finish!=1&&(countx>4||county>4))
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        i++; int x1=0,y1=0;
+         int x1=0,y1=0;
         if (count1 != 0) {
             
             if (i % 2 != 0) {
-                jButton1.setText("X");x1++;x[countx]=1;countx++;
+                jButton1.setText("X");x1++;x[countx]=1;countx++;i++;
             } else {
-                jButton1.setText("O");y1++;o[county]=1;county++;
+                jButton1.setText("O");y1++;o[county]=1;county++;i++;
             }
             count1--;
             if(countx>2||county>2)
@@ -435,13 +435,13 @@ if(finish!=1&&(countx>4||county>4))
     }//GEN-LAST:event_jButton1ActionPerformed
     }
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        i++; int x1=0,y1=0;
+         int x1=0,y1=0;
 
         if (count3 > 0) {
             if (i % 2 != 0) {
-                jButton3.setText("X");x1++;x[countx]=3;countx++;
+                jButton3.setText("X");x1++;x[countx]=3;countx++;i++;
             } else {
-                jButton3.setText("O");y1++;o[county]=3;county++;
+                jButton3.setText("O");y1++;o[county]=3;county++;i++;
             }
 // TODO add your handling code here:
             count3--;
@@ -457,13 +457,13 @@ if(finish!=1&&(countx>4||county>4))
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        i++; int x1=0,y1=0;
+        int x1=0,y1=0;
         
         if (count5 != 0) {
             if (i % 2 != 0) {
-                jButton5.setText("X");x1++;x[countx]=5;countx++;
+                jButton5.setText("X");x1++;x[countx]=5;countx++;i++;
             } else {
-                jButton5.setText("O");y1++;o[county]=5;county++;
+                jButton5.setText("O");y1++;o[county]=5;county++;i++;
             }
             count5--;
             if(countx>=2||county>=2)
@@ -475,13 +475,13 @@ if(finish!=1&&(countx>4||county>4))
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        i++; int x1=0,y1=0;
+       int x1=0,y1=0;
         
         if (count6 != 0) {
             if (i % 2 != 0) {
-                jButton6.setText("X");x1++;x[countx]=6;countx++;
+                jButton6.setText("X");x1++;x[countx]=6;countx++;i++;
             } else {
-                jButton6.setText("O");y1++;o[county]=6;county++;
+                jButton6.setText("O");y1++;o[county]=6;county++;i++;
             }
             count6--;
             if(countx>2||county>2)
@@ -493,13 +493,13 @@ if(finish!=1&&(countx>4||county>4))
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        i++; int x1=0,y1=0;
+         int x1=0,y1=0;
 
         if (count7 != 0) {
             if (i % 2 != 0) {
-                jButton7.setText("X");x1++;x[countx]=7;countx++;
+                jButton7.setText("X");x1++;x[countx]=7;countx++;i++;
             } else {
-                jButton7.setText("O");y1++;o[county]=7;county++;
+                jButton7.setText("O");y1++;o[county]=7;county++;i++;
             }
             count7--;
             if(countx>2||county>2)
@@ -511,14 +511,14 @@ if(finish!=1&&(countx>4||county>4))
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        i++; int x1=0,y1=0;
+        int x1=0,y1=0;
         
         if (count8 != 0) {
 
             if (i % 2 != 0) {
-                jButton8.setText("X");x1++;x[countx]=8;countx++;
+                jButton8.setText("X");x1++;x[countx]=8;countx++;i++;
             } else {
-                jButton8.setText("O");y1++;      o[county]=8; county++; // TODO add your handling code here:
+                jButton8.setText("O");y1++;      o[county]=8; county++;i++; // TODO add your handling code here:
             }
             count8--;
             if(countx>2||county>2)
@@ -532,13 +532,13 @@ if(finish!=1&&(countx>4||county>4))
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        i++; int x1=0,y1=0;
+         int x1=0,y1=0;
         
         if (count9 != 0) {
             if (i % 2 != 0) {
-                jButton9.setText("X");x1++;x[countx]=9;countx++;
+                jButton9.setText("X");x1++;x[countx]=9;countx++;i++;
             } else {
-                jButton9.setText("O");y1++;o[county]=9;county++;
+                jButton9.setText("O");y1++;o[county]=9;county++;i++;
             }
             count9--;
             if(countx>2||county>2)
